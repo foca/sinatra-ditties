@@ -2,8 +2,6 @@ require File.dirname(__FILE__) + "/test_helper"
 require "sinatra/ditties"
 
 class AuthorizationApp < TestApp
-  include Sinatra::Authorization
-
   get "/" do
     login_required
 

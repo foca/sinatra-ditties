@@ -140,7 +140,5 @@ module Sinatra
     end
   end
 
-  class EventContext
-    include Mailer
-  end
+  helpers Mailer
 end

@@ -58,4 +58,6 @@ module Sinatra
         throw :halt, [ 400, 'Bad Request' ]
       end
   end
+
+  helpers Authorization
 end
